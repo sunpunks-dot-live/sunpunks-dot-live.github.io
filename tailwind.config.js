@@ -1,18 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+export default {
+  content: ["./index.html", "./src/**/*.tsx"],
   theme: {
     extend: {
       colors: {
-        primary: "#F2E250",
-        primaryDark: "#A69926",
-        secondary: "#68DBF2",
-        accent: "#FF4594",
-        accentDark: "#B31758",
+        "sp-yellow": "#F2e250",
+        "sp-yellow-alt": "#a69926",
+        "sp-blue": "#68dbf2",
+        "sp-pink": "#FF4594",
+        "sp-pink-alt": "#b31758",
       },
       fontFamily: {
-        display: ["'Fugaz One'", "sans-serif"],
         body: ["Inter", "sans-serif"],
+        display: ["Josefin Sans", "sans-serif"],
       },
     },
   },

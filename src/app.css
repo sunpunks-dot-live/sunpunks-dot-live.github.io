@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --sunpunks-blue: #68dbf2;
+    --sunpunks-pink: #FF4594;
+    --sunpunks-pink-alt: #b31758;
+    --sunpunks-yellow: #F2e250;
+    --sunpunks-yellow-alt: #a69926;
+}
