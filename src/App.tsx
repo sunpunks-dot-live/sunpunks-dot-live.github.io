@@ -25,7 +25,7 @@ export function App() {
   return (
     <>
       <Navbar routes={routes} />
-      <main className="min-h-screen p-8">
+      <main className="min-h-screen p-8 bg-sp-pink max-w-screen">
         <Routes>
           {routes.map(({ path, component: RouteComp }) => {
             return <Route key={path} path={path} element={<RouteComp />} />;
