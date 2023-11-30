@@ -1,18 +1,26 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    "group:allNonMajor",
-    "group:monorepos",
-  ],
-  "packageRules": [
-    {
-      "packageNames": ["@types/react", "@types/react-dom", "react", "react-dom"]
-      "groupName": "react monorepo"
-    },
-    {
-      "packageNames": ["vite", "@vitejs/plugin-react"],
-      "groupName": "vite monorepo"
-    }
-  ]
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        "group:allNonMajor",
+        "group:monorepos"
+    ],
+    "packageRules": [
+        {
+            "packageNames": [
+                "@types/react",
+                "@types/react-dom",
+                "react",
+                "react-dom"
+            ],
+            "groupName": "react monorepo"
+        },
+        {
+            "packageNames": [
+                "vite",
+                "@vitejs/plugin-react"
+            ],
+            "groupName": "vite monorepo"
+        }
+    ]
 }
